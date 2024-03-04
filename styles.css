@@ -1,0 +1,236 @@
+  /* Estilos de reinicio */ 
+html {
+  font-size: 16px;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+*,
+::after,
+::before {
+  box-sizing: inherit;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  height: auto;
+}
+
+body {
+  margin: 0;
+  font-family:"Roboto", sans-serif;
+}
+
+/* Seccion Inicial */
+
+/* Header */
+.initial-section {
+  background-color: #1f2937;
+  color: #f9faf8;
+}
+
+.header {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 16px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header h2 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.navbar {
+  display: flex;
+  align-items: flex-end;
+}
+.navbar ul {
+  margin: 0;
+  display: flex;
+  gap: 25px;
+}
+
+.navbar a {
+  color: #e5e7eb;
+}
+
+/* Presentation */
+
+.presentation {
+  height: 80vh;
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 35px;
+}
+
+.left-info {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  text-align: left;
+}
+
+.left-info h1 {
+  margin: 0;
+  font-size: 48px;
+  font-weight: bolder;
+}
+
+.left-info p {
+  margin: 0;
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.left-info button {
+  width: 30%;
+  padding: 10px 15px;
+  background-color: #3882f6;
+  font-size: 16px;
+  font-weight: bolder;
+  color: #e5e7eb;
+  border-radius: 8px;
+  border: none;
+}
+
+.right-img {
+  width: 100%;
+  height: 245px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: grey;
+}
+
+/* Section Information */
+.information {
+  max-width: 800px;
+  margin: 55px auto;
+  margin-bottom: 75px;
+  text-align: center;
+}
+
+.information h2 {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+}
+
+.container-card {
+  display: flex;
+  justify-content: space-between;
+}
+
+.info-card {
+  width: 170px;
+}
+
+.text-card {
+  color: grey;
+}
+
+.img-card {
+  width: 170px;
+  height: 170px;
+  border: 4px solid #3882f6;
+  border-radius: 20px;
+}
+
+/* Section Testimonial */
+
+.testimonial {
+  height: 70vh;
+  background-color: #e5e7eb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.testimonial blockquote {
+  max-width: 850px;
+  color: #1f2937;
+  display: flex;
+  flex-direction: column;
+}
+
+.testimonial-text {
+  margin: 0;
+  font-family: "Dosis";
+  font-weight: 200;
+  font-size: 36px;
+}
+
+.testimonial-autor {
+  margin: 0;
+  margin-right: 30px;
+  font-family: sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  align-self: flex-end;
+}
+
+/*Section Call to Action */
+
+.call-to-action{
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-call{
+    width: 80%;
+    height: 45%;
+    max-width: 1000px;
+    padding: 30px 75px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882f6;
+    border-radius: 12px;
+    color: #f9faf8;
+}
+
+.info-call h3{
+    margin: 0;
+    font-size: 24px;
+}
+
+.info-call p{
+    margin: 0;
+}
+
+.container-call button{
+    padding: 7px 33px;
+    background-color: #3882f6;
+    font-size: 16px;
+    font-weight: bolder;
+    color: #e5e7eb;
+    border-radius: 8px;
+    border: 2px solid whitesmoke;
+}
+
+/* Footer */
+
+.footer{
+    text-align: center;
+    background-color: #1f2937;
+    padding: 35px;
+}
+
+.footer p{
+    margin: 0;
+    color: #e5e7eb;
+    font-size: 18px;
+}
